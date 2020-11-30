@@ -1,7 +1,7 @@
 
 
 <?php
-	include("db_connect.php");
+	include("config.php");
 	session_start();
 	$sql ="select * from users where userid ='".$_SESSION['userid']."' ";
 	$result= $conn->query($sql);
