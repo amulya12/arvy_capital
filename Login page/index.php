@@ -48,7 +48,10 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
 
-
+<!-- to prevent back button -->
+<script type="text/javascript" language="javascript">
+	window.history.forward();
+</script>
 
 
 </head>
